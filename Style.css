@@ -15,7 +15,9 @@
     /*Primary*/
 
     --Strong-Cyan: hsl(171, 66%, 44%);
+    --dark-cyan: hsl(171, 66%, 36%);
     --Light-Blue: hsl(233, 100%, 69%);
+    --dark-blue: hsl(233, 63%, 57%);
 
     /*Neutral*/
 
@@ -28,8 +30,8 @@
 /*HEADER*/
 
 header {
-    height: 80vh;
-    background-image: url(images/bg-header-mobile.png);
+    height: 70vh;
+    background-image: url(images/bg-header-mobile.png);   
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
@@ -68,7 +70,7 @@ header {
 .hc-buttons a {
     text-decoration: none;
     border-radius: 50px;
-    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.358);
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.163);
     margin: 15px;
     padding: 15px 80px;
     width: 300px;
@@ -78,17 +80,21 @@ header {
 
 .hcb-ios {
     background: var(--Strong-Cyan);
-    border: 1px solid green;
+    border-bottom: 3px solid var(--dark-cyan);
 }
 
 .hcb-mac {
     background: var(--Light-Blue);
-    border: 1px solid green;
+    border-bottom: 3px solid var(--dark-blue);
 }
 
 /*END HEADER*/
 
 @media screen and (min-width: 900px) {
+    header {
+        background-image: url(images/bg-header-desktop.png);
+    }
+    
     .h-container {
         width: 600px;
     }
