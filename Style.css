@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+:root {
+    --font:'Bai Jamjuree', sans-serif;
+
+    /*Colors*/
+
+    /*Primary*/
+
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+
+    /*Neutral*/
+
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+
+    --white: white;
+}
+
+/*HEADER*/
+
+header {
+    height: 80vh;
+    background-image: url(images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.h-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 30px;
+}
+
+.hc-text {
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+
+.hc-text h1 {
+    color: var(--Dark-Grayish-Blue);
+    margin-bottom: 20px;
+}
+
+.hc-text p {
+    font-size: 18px;
+    color: var(--Grayish-Blue);
+}
+
+.hc-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.hc-buttons a {
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.358);
+    margin: 15px;
+    padding: 15px 80px;
+    width: 300px;
+    font-weight: 700;
+    color: var(--white);
+}
+
+.hcb-ios {
+    background: var(--Strong-Cyan);
+    border: 1px solid green;
+}
+
+.hcb-mac {
+    background: var(--Light-Blue);
+    border: 1px solid green;
+}
+
+/*END HEADER*/
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
