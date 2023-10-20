@@ -32,6 +32,8 @@ header {
     background-image: url(images/bg-header-mobile.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .h-container {
@@ -85,6 +87,22 @@ header {
 }
 
 /*END HEADER*/
+
+@media screen and (min-width: 900px) {
+    .h-container {
+        width: 600px;
+    }
+
+    .hc-buttons {
+        flex-direction: row;
+    }
+
+    .hc-buttons a{
+        text-align: center;
+        padding: 15px;
+        width: 200px;
+    }
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
