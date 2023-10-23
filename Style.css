@@ -7,6 +7,10 @@
     font-family: var(--font);
 }
 
+h2 {
+    color: var(--Dark-Grayish-Blue);
+}
+
 p {
     font-size: 16.2px;
     font-weight: 400;
@@ -98,6 +102,7 @@ header {
 
 /*MAIN*/
 
+/*CONTAINER 1*/
 main {
     display: flex;
     flex-direction: column;
@@ -105,15 +110,11 @@ main {
     align-items: center;
 }
 
-h2 {
-    color: var(--Dark-Grayish-Blue);
-}
-
 .container {
     width: 82vw;
     text-align: center;
     line-height: 30px;
-}
+}ƒ
 
 .container-1 {
     padding: 40px 0;
@@ -136,6 +137,28 @@ h2 {
 .c1-card2, .c1-card3, .c1-card4 {
     padding: 30px 0 30px 0;
 }
+
+/*END CONTAINER 1*/
+
+/*CONTAINER 2*/
+
+.container-2 {
+    margin: 100px 0 80px;
+}
+
+.c2-card1 {
+    margin: 20px 0;
+}
+
+.c2-card1 p {
+    margin: 20px 0 50px;
+}
+
+.pc-mobile {
+    width: 100%;
+}
+
+/*END CONTAINER 2*/
 
 /*END MAIN*/
 
@@ -161,6 +184,8 @@ h2 {
         padding: 15px;
         width: 200px;
     }
+
+    /*CONTAINER 1*/
 
     .container-1 {
         display: grid;
@@ -202,6 +227,27 @@ h2 {
         text-align: left;
         width: 350px;
     }
+
+    /*END CONTAINER 1*/
+
+    /*CONTAINER 2*/
+
+    
+    .container-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .c2-card1 {
+        width: 600px;
+    }
+
+    .pc-mobile {
+        width: 800px;
+    }
+
+    /*END CONTAINER 2*/
 }
 
 .attribution { font-size: 11px; text-align: center; }
