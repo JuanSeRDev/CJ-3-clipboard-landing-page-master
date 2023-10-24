@@ -204,6 +204,20 @@ main {
 
 /*END CONTAINER 3*/
 
+/*CONTAINER 4*/
+
+.container-4 {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 ;
+}
+
+.container-4 picture {
+    padding: 30px 0;
+}
+
+/*END CONTAINER 4*/
+
 /*END MAIN*/
 
 
@@ -311,6 +325,16 @@ main {
     }
 
     /*END CONTAINER 3*/
+
+    /*CONTAINER 4*/
+
+    .container-4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    /*END CONTAINER 4*/
 }
 
 .attribution { font-size: 11px; text-align: center; }
