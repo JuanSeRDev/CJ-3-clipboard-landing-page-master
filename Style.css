@@ -34,6 +34,10 @@ p {
     --Dark-Grayish-Blue: hsl(210, 10%, 33%);
     --Grayish-Blue: hsl(201, 11%, 66%);
 
+    --mac-hover: #8896ff;
+    --ios-hover: #5dccbb;
+    --icons: #4f585e;
+
     --white: white;
 
     --footer-color: #f5f6f8;
@@ -95,9 +99,17 @@ header {
     border-bottom: 3px solid var(--dark-cyan);
 }
 
+.hcb-ios:hover {
+    background: var(--ios-hover);
+}
+
 .hcb-mac {
     background: var(--Light-Blue);
     border-bottom: 3px solid var(--dark-blue);
+}
+
+.hcb-mac:hover {
+    background: var(--mac-hover);
 }
 
 /*END HEADER*/
@@ -261,15 +273,42 @@ footer {
    color: var(--Dark-Grayish-Blue);
    font-size: 20px;
    margin: 15px;
+   text-decoration: none;
+}
+
+.i-parragraph:hover {
+    color: var(--dark-cyan);
 }
 
 .social-media {
-    width: 160px;
+    width: 150px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     margin: 50px 0;
+    font-size: 40px;
 }
+
+.fa-brands {
+    margin: 0 20px;
+}
+
+.fa-square-facebook{
+    color: var(--icons);    
+}
+
+.fa-x-twitter {
+    color: var(--icons);
+}
+
+.fa-instagram {
+    color: var(--icons);
+}
+
+.social-media:hover {
+    color: yellow;
+}
+
 /*END FOOTER*/
 
 
