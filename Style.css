@@ -286,27 +286,35 @@ footer {
     flex-direction: row;
     justify-content: center;
     margin: 50px 0;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .fa-brands {
     margin: 0 20px;
 }
 
-.fa-square-facebook{
+.fa-square-facebook {
     color: var(--icons);    
+}
+
+.fa-square-facebook:hover {
+    color: var(--dark-cyan);    
 }
 
 .fa-x-twitter {
     color: var(--icons);
 }
 
+.fa-x-twitter:hover {
+    color: var(--dark-cyan);
+}
+
 .fa-instagram {
     color: var(--icons);
 }
 
-.social-media:hover {
-    color: yellow;
+.fa-instagram:hover{
+    color: var(--dark-cyan);
 }
 
 /*END FOOTER*/
