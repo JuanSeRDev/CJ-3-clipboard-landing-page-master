@@ -269,6 +269,17 @@ footer {
     margin: 50px;
 }
 
+.info-general {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.info-g-collumn {
+    display: flex;
+    flex-direction: column;
+}
+
 .i-parragraph {
    color: var(--Dark-Grayish-Blue);
    font-size: 20px;
@@ -442,6 +453,25 @@ footer {
     }
 
     /*END CONTAINER 5*/
+
+    /*FOOTER*/
+
+    .info {
+        width: 90vw;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .info-general {
+        flex-direction: row;
+        text-align: left;
+        width: 700px;
+    }
+
+    /*END FOOTER*/
 }
 
 .attribution { font-size: 11px; text-align: center; }
